@@ -12,8 +12,7 @@ import com.example.model.Person;
 public class PersonService {
 	ArrayList<Person> persons = new ArrayList<Person>();
 	public PersonService() {
-		
-		p = new Person();
+   		Person p = new Person();
 		p.setId("48");
 		p.setAge(21);
 		p.setFirstName("test09");
