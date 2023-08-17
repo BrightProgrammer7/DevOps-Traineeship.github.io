@@ -12,32 +12,7 @@ import com.example.model.Person;
 public class PersonService {
 	ArrayList<Person> persons = new ArrayList<Person>();
 	public PersonService() {
-		Person p = new Person();
-		p
-
-		p.setLastName("tesst");
-		persons.add(p);
 		
-		p = new Person();
-		p.setId("2");
-		p.setAge(25);
-		p.setFirstName("Mohammed");
-		p.setLastName("Mohammed");
-		persons.add(p);
-		
-		p = new Person();
-		p.setId("3");
-		p.setAge(25);
-		p.setFirstName("Salma");
-		p.setLastName("Salma");
-		persons.add(p);
-		
-		p = new Person();
-		p.setId("4");
-		p.setAge(25);
-		p.setFirstName("test");
-		p.setLastName("test");
-		persons.add(p);
 		p = new Person();
 		p.setId("48");
 		p.setAge(21);
