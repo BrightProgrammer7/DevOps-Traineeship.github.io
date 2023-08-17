@@ -13,11 +13,7 @@ public class PersonService {
 	ArrayList<Person> persons = new ArrayList<Person>();
 	public PersonService() {
 		Person p = new Person();
-		p.setId("12");
-		p.setAge(12);
-		p.setFirstName("te");
-		p.setLastName("te");
-		persons.add(p);
+		p
 
 		Person p = new Person();
 		p.setId("182");
