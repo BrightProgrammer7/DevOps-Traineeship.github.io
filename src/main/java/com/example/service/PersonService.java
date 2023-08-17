@@ -15,10 +15,6 @@ public class PersonService {
 		Person p = new Person();
 		p
 
-		Person p = new Person();
-		p.setId("182");
-		p.setAge(12);
-		p.setFirstName("te");
 		p.setLastName("tesst");
 		persons.add(p);
 		
